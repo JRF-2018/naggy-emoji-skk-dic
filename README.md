@@ -1,6 +1,6 @@
 # emoji-skk-dic.txt: quail-naggy 用絵文字辞書
 
-<!-- Time-stamp: "2020-11-30T17:54:25Z" -->
+<!-- Time-stamp: "2020-11-30T18:48:24Z" -->
 
 ## これは何？
 
@@ -18,8 +18,7 @@ https://qiita.com/peaceiris/items/c40ba39679daeb7555c2
 まず、quail-naggy をインストールしたディレクトリに、emoji-skk-dic.txt
 と emoji-skk-dic.txt.sdb.pag と emoji-skk-dic.txt.sdb.dir をコピーする。
 
-次に quail-naggy の site-init.nginit の最後に次の行を足す(source タグ
-はいらない)。
+次に quail-naggy の site-init.nginit の最後に次の行を足す。
 
 ```
 add-skk-dic emoji-skk-dic.txt -u
